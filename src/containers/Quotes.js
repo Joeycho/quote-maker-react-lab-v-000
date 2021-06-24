@@ -6,6 +6,7 @@ import QuoteCard from '../components/QuoteCard';
 class Quotes extends Component {
 
   render() {
+    debugger
     return (
       <div>
         <hr />
@@ -29,9 +30,8 @@ class Quotes extends Component {
   }
 }
 
-const mapStateToProps = (state) => {
-  let quotes = state
-  return quotes
+const mapStateToProps = state => {
+  return (state)
 }
 
 const mapDispatchToProps = dispatch => ({
